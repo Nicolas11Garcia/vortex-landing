@@ -318,14 +318,14 @@
         <!-- Listo para comenzar -->
         <section class="bg-white pb-10 px-6">
             <div
-                class="max-w-screen-xl grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto bg-[#BC511B] w-full rounded-xl py-20 p-6">
-                <div>
-                    <h3 class="sora-font text-white text-3xl md:text-5xl font-bold text-balance">¿Listo para comenzar a
-                        administrar
-                        tu
-                        negocio?
+                class="max-w-screen-xl flex flex-col items-center justify-center gap-8 mx-auto bg-[#13544E] w-full rounded-xl py-20 p-6">
+                <div class="flex flex-col items-center justify-center mx-auto">
+                    <h3 class="sora-font max-w-[800px]  text-white text-3xl md:text-5xl font-bold text-balance text-center">¿Listo para comenzar a
+                        <span class="text-[#73FFAB]">administrar
+                            tu
+                            negocio?</span>
                     </h3>
-                    <p class="text-[#D5E0D5] mt-5 text-balance text-base sm:text-lg">Lorem ipsum dolor sit amet
+                    <p class="text-[#D5E0D5] text-center mt-5 text-balance text-base sm:text-lg">Lorem ipsum dolor sit amet
                         consectetur, adipisicing
                         elit.
                         Magni tempora
@@ -334,13 +334,8 @@
             font-medium rounded-lg text-sm px-5 py-3 text-center ">
                         Comenzar ahora</a>
                 </div>
-                <div class="flex gap-8">
-                    <div>
-                        <img class="rounded-xl" width="300" src="assets/images/listo-para-comenzar/1.png">
-                    </div>
-                    <div class="mt-24">
-                        <img class="rounded-xl" width="300" src="assets/images/listo-para-comenzar/2.png">
-                    </div>
+                <div class="flex justify-end">
+                    <img width="600" class="rounded-xl" src="assets/images/mac-image.png" alt="img-laptop">
                 </div>
             </div>
         </section>
@@ -560,22 +555,32 @@
         <!-- Datos interesantes -->
         <section class="bg-white px-6 pb-[120px]">
             <div class="max-w-screen-xl mx-auto bg-[#13544E] w-full rounded-xl py-16 p-6">
-                <h3 class="sora-font max-w-[500px] mx-auto text-white text-3xl md:text-5xl font-bold text-balance text-center mb-16">
+                <h3
+                    class="sora-font max-w-[500px] mx-auto text-white text-3xl md:text-5xl font-bold text-balance text-center mb-16">
                     Algunos datos que te <span class="text-[#73FFAB]">podrian interesar</span>
                 </h3>
 
                 <div class="grid max-w-[600px] mx-auto grid-cols-3" id="counter">
                     <div class="flex flex-col items-center">
-                        <div class="counter-value text-3xl md:text-5xl text-white font-bold mb-3" data-count="2">0</div>
+                        <div class="sora-font counter-value text-3xl md:text-5xl text-white font-bold mb-3"
+                            data-count="2">0</div>
                         <p class="text-white text-base md:text-lg">Reconocimientos</p>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div class="counter-value text-3xl md:text-5xl text-white font-bold mb-3" data-count="3000">400</div>
-                        <p class="text-white text-base md:text-lg">Reconocimientos</p>
+                        <div class="flex gap-1 mb-3">
+                            <p class="sora-font text-3xl md:text-5xl text-white font-bold">+</p>
+                            <div class="sora-font counter-value text-3xl md:text-5xl text-white font-bold"
+                                data-count="3000">400</div>
+                        </div>
+                        <p class="text-white text-base md:text-lg">Usuarios</p>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div class="counter-value text-3xl md:text-5xl text-white font-bold mb-3" data-count="20">4</div>
-                        <p class="text-white text-base md:text-lg">Reconocimientos</p>
+                        <div class="flex gap-1 mb-3">
+                            <p class="sora-font text-3xl md:text-5xl text-white font-bold">+</p>
+                            <div class="sora-font counter-value text-3xl md:text-5xl text-white font-bold"
+                                data-count="20">4</div>
+                        </div>
+                        <p class="text-white text-base md:text-lg">Colaboradores</p>
                     </div>
                 </div>
 
@@ -585,19 +590,18 @@
 
         <!-- Juan Sutil -->
         <section class=" bg-white px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12  mx-auto max-w-screen-xl">
-                <div>
-                    <img class="rounded-xl" src="assets/images/juan-sutil.jpg" alt="juan-sutil" />
-                </div>
-                <div class="flex flex-col justify-center">
-                    <p class="text-primary font-semibold uppercase mb-4 text-start">Inversor</p>
+            <div class="max-w-screen-xl mx-auto px-6">
+                <div class="mb-16">
+                    <p class="text-primary text-center font-semibold uppercase mb-4">Inversor</p>
                     <h2 data-aos="fade-up" data-aos-delay="100"
-                        class="sora-font text-negro text-3xl md:text-5xl  font-bold">"Vortex One Es Una Exelente
-                        Herramienta Para
-                        Organizar Tu Negocio"
+                        class="sora-font text-negro text-3xl md:text-5xl font-bold text-center">"Vortex One Es Una Exelente Herramienta Para Organizar Tu Negocio"
                     </h2>
-                    <p data-aos="fade-up" data-aos-delay="150" class="text-plomo mt-5 text-start text-base md:text-lg">
-                        -Juan Sutil</p>
+                    <p data-aos="fade-up" data-aos-delay="150"
+                        class="text-plomo mt-5 max-w-[800px] mx-auto text-center text-base md:text-lg">-Juan Sutil</p>
+                </div>
+
+                <div class="flex justify-center">
+                    <img width="900" class="rounded-xl" src="assets/images/juan-sutil.jpg" alt="juansutil">
                 </div>
             </div>
         </section>
