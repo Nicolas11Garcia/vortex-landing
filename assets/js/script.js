@@ -176,3 +176,44 @@ $(window).scroll(function () {
     }
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+    $("#open-modal-alert").click(function () {
+        // Aquí puedes colocar el código que quieres ejecutar cuando se haga clic en el botón
+        $('#modal_alert').removeClass('opacity-0');
+        $('#modal_alert').removeClass('pointer-events-none');
+        $('#modal_alert').addClass('pointer-events-unset');
+        // Deshabilitar el scroll del cuerpo
+        $('body').addClass('overflow-hidden');
+    });
+    $("#close_modal").click(function () {
+        // Aquí puedes colocar el código que quieres ejecutar cuando se haga clic en el botón
+        $('#modal_alert').addClass('opacity-0');
+        $('#modal_alert').addClass('pointer-events-none');
+        $('#modal_alert').removeClass('pointer-events-unset');
+        $('body').removeClass('overflow-hidden');
+
+    });
+
+
+});
