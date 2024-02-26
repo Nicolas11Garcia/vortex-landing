@@ -6,6 +6,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.sora-font{
+    font-family: "Sora", sans-serif;
+}
+
+
 [class^="number-slide"],
 [class*=" number-slide"] {
     background: grey;
@@ -90,7 +95,7 @@ body {
 }
 
 .dot--active {
-    background: #000;
+    background: #14A800;
 }
 
 .arrow {

@@ -6,11 +6,11 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: '#37AB46',
-                negro: '#191919',
+                primary: '#14A800',
+                negro: '#1A1A1A',
                 primary_hover: '#0064DA',
                 badget: '#F0F9FF',
-                plomo: '#666666',
+                plomo: '#5E6D55',
                 negro_hover: '#2B2B2B',
             }
         }
